@@ -15,9 +15,13 @@ The scores will be used for constructing an ROC curve against the test case grou
 
 
 The dataset includes the following fields.
+
 Field           	Name Type	Description
+
 Canceled        	Binary   	Canceled = 1
+
 Month           	Integer  	Jan = 1
+
 DepartureTime   	Integer  	Military Time (1:00 PM = 1300)
 UniqueCarrier   	String   	Airline Carrier Code
 SchedElapsedTime	Integer  	Scheduled Flight time in minutes
